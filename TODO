@@ -1,0 +1,6 @@
+* Make RawRequest unique with its own hash - sort of implimented just not working
+* subclass RawRequest to be GET, POST, multipart
+* add project functionality - interface for sqlite project
+* add level to options - defines how much fuzzing is carried out (i.e. diff number of schemas)
+* add a pre injection generator function. Accept a level
+* flush database server side menu option

@@ -1,0 +1,12 @@
+GET /index.html HTTP/1.1
+Host: ssrf.pentestlabs.co.uk
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://www.pentestlabs.co.uk/login
+Cookie: GEAR=local-5a1d8985bc517715b7000234
+Connection: close
+Test: 2.2.2.2
+Upgrade-Insecure-Requests: 1
+
